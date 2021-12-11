@@ -88,10 +88,10 @@ void printCalendar(int year)
 }
 int main()
 {
-int year;
-    printf("enter year: ") ;
-    scanf("%d",&year);
-	printCalendar(year);
+int y;
+    printf("enter year(Eg: 2002): ") ;
+    scanf("%d",&y);
+	printCalendar(y);
 
 	return (0);
 }
